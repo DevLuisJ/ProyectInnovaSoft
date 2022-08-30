@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "b6MvbpEa3mkX7rQpwFS21907Siw7ulkY5ymG1kANaGIXBbfH9L5OpN9qkf33JAntc+CZJ1j2WitnKCQ8M6s3Rg==",
+  "success": true,
+  "projectFilePath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
