@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GymEnCasa.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220829001831_MigracionCinco")]
-    partial class MigracionCinco
+    [Migration("20220902214836_nueve")]
+    partial class nueve
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -67,6 +67,57 @@ namespace GymEnCasa.App.Persistencia.Migrations
                     b.ToTable("Personas");
 
                     b.HasDiscriminator<string>("Discriminator").HasValue("Persona");
+                });
+
+            modelBuilder.Entity("GymEnCasa.App.Dominio.PlanDeNutricion", b =>
+                {
+                    b.HasBaseType("GymEnCasa.App.Dominio.Persona");
+
+                    b.Property<float>("CaloriasAgregadas")
+                        .HasColumnType("real");
+
+                    b.Property<float>("CaloriasQuemadas")
+                        .HasColumnType("real");
+
+                    b.Property<int>("Dieta")
+                        .HasColumnType("int");
+
+                    b.Property<string>("EstadoDieta")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Fecha")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FrecuenciaNutricion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasDiscriminator().HasValue("PlanDeNutricion");
+                });
+
+            modelBuilder.Entity("GymEnCasa.App.Dominio.PlanDeRutinas", b =>
+                {
+                    b.HasBaseType("GymEnCasa.App.Dominio.Persona");
+
+                    b.Property<string>("EstadoRutina")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Fecha")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("PlanDeRutinas_Fecha");
+
+                    b.Property<int>("Repeticiones")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Rutina")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Rutinas")
+                        .HasColumnType("int");
+
+                    b.Property<string>("frecuenciaRutinas")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasDiscriminator().HasValue("PlanDeRutinas");
                 });
 
             modelBuilder.Entity("GymEnCasa.App.Dominio.Usuario", b =>

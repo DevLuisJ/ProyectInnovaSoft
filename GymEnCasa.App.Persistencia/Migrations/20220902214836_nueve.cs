@@ -2,7 +2,7 @@
 
 namespace GymEnCasa.App.Persistencia.Migrations
 {
-    public partial class MigracionDos : Migration
+    public partial class nueve : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

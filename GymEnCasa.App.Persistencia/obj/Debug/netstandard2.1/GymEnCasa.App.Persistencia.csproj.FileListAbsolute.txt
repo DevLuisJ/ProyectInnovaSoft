@@ -10,3 +10,15 @@ C:\Personal\MinTic\FP-C3-P1-49\S3\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Persiste
 C:\Personal\MinTic\FP-C3-P1-49\S3\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.csproj.CopyComplete
 C:\Personal\MinTic\FP-C3-P1-49\S3\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.dll
 C:\Personal\MinTic\FP-C3-P1-49\S3\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.pdb
+D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\bin\Debug\netstandard2.1\GymEnCasa.App.Persistencia.deps.json
+D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\bin\Debug\netstandard2.1\GymEnCasa.App.Persistencia.dll
+D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\bin\Debug\netstandard2.1\GymEnCasa.App.Persistencia.pdb
+D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\bin\Debug\netstandard2.1\GymEnCasa.App.Dominio.dll
+D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\bin\Debug\netstandard2.1\GymEnCasa.App.Dominio.pdb
+D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.csprojAssemblyReference.cache
+D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.AssemblyInfoInputs.cache
+D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.AssemblyInfo.cs
+D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.csproj.CopyComplete
+D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.dll
+D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.pdb
