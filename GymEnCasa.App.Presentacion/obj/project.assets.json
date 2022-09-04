@@ -8,26 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\ljcor\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Presentacion\\GymEnCasa.App.Presentacion.csproj",
+      "projectUniqueName": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Presentacion\\GymEnCasa.App.Presentacion.csproj",
       "projectName": "GymEnCasa.App.Presentacion",
-      "projectPath": "D:\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Presentacion\\GymEnCasa.App.Presentacion.csproj",
-      "packagesPath": "C:\\Users\\ljcor\\.nuget\\packages\\",
-      "outputPath": "D:\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Presentacion\\obj\\",
+      "projectPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Presentacion\\GymEnCasa.App.Presentacion.csproj",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+      "outputPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ljcor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
