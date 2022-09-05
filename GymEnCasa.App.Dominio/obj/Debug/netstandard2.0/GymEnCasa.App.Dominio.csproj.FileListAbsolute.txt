@@ -7,3 +7,12 @@ C:\Personal\MinTic\FP-C3-P1-49\S3\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\
 C:\Personal\MinTic\FP-C3-P1-49\S3\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\bin\Debug\netstandard2.0\GymEnCasa.App.Dominio.pdb
 C:\Personal\MinTic\FP-C3-P1-49\S3\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\obj\Debug\netstandard2.0\GymEnCasa.App.Dominio.dll
 C:\Personal\MinTic\FP-C3-P1-49\S3\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\obj\Debug\netstandard2.0\GymEnCasa.App.Dominio.pdb
+D:\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\bin\Debug\netstandard2.0\GymEnCasa.App.Dominio.deps.json
+D:\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\bin\Debug\netstandard2.0\GymEnCasa.App.Dominio.dll
+D:\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\bin\Debug\netstandard2.0\GymEnCasa.App.Dominio.pdb
+D:\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\obj\Debug\netstandard2.0\GymEnCasa.App.Dominio.csprojAssemblyReference.cache
+D:\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\obj\Debug\netstandard2.0\GymEnCasa.App.Dominio.AssemblyInfoInputs.cache
+D:\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\obj\Debug\netstandard2.0\GymEnCasa.App.Dominio.AssemblyInfo.cs
+D:\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\obj\Debug\netstandard2.0\GymEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+D:\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\obj\Debug\netstandard2.0\GymEnCasa.App.Dominio.dll
+D:\GymEnCasa\GymEnCasa.App\GymEnCasa.App.Dominio\obj\Debug\netstandard2.0\GymEnCasa.App.Dominio.pdb

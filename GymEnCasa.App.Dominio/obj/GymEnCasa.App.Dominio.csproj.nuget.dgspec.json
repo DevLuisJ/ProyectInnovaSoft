@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj": {}
+    "D:\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj": {
+    "D:\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj",
+        "projectUniqueName": "D:\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj",
         "projectName": "GymEnCasa.App.Dominio",
-        "projectPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\obj\\",
+        "projectPath": "D:\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\ljcor\\.nuget\\packages\\",
+        "outputPath": "D:\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ljcor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

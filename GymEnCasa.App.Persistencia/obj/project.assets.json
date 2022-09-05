@@ -7263,31 +7263,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
+    "C:\\Users\\ljcor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj",
+      "projectUniqueName": "D:\\GymEnCasa\\GymEnCasa.App\\gymencasa.app.persistencia\\GymEnCasa.App.Persistencia.csproj",
       "projectName": "GymEnCasa.App.Persistencia",
-      "projectPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Persistencia\\obj\\",
+      "projectPath": "D:\\GymEnCasa\\GymEnCasa.App\\gymencasa.app.persistencia\\GymEnCasa.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\ljcor\\.nuget\\packages\\",
+      "outputPath": "D:\\GymEnCasa\\GymEnCasa.App\\gymencasa.app.persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ljcor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj": {
-              "projectPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj"
+            "D:\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj": {
+              "projectPath": "D:\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj"
             }
           }
         }

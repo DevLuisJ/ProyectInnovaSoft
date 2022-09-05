@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GymEnCasa.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220829012332_MigracionSeis")]
-    partial class MigracionSeis
+    [Migration("20220902214836_nueve")]
+    partial class nueve
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -88,7 +88,7 @@ namespace GymEnCasa.App.Persistencia.Migrations
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Frecuencia")
+                    b.Property<string>("FrecuenciaNutricion")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("PlanDeNutricion");
@@ -114,7 +114,7 @@ namespace GymEnCasa.App.Persistencia.Migrations
                     b.Property<int>("Rutinas")
                         .HasColumnType("int");
 
-                    b.Property<string>("frecuencia")
+                    b.Property<string>("frecuenciaRutinas")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("PlanDeRutinas");
