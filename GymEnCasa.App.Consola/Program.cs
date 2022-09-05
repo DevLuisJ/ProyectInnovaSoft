@@ -8,12 +8,13 @@ namespace GymEnCasa.App.Consola
     class Program
     {
         private static IRepositorioUsuario _repoUsuario = new RepositorioUsuario (new Persistencia.AppContext());
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World - Creando Usuario!");
             //Adiciona el usuario creado a continuacion de forma manual
             AdicionarUsuario();
-            
+                    
             // Consulta usuario
             BuscarUsuario(2);
 
@@ -74,5 +75,6 @@ namespace GymEnCasa.App.Consola
         _repoUsuario.CrearUsuario(usuario2);    
 
         }
-    }
+
+       }
 }

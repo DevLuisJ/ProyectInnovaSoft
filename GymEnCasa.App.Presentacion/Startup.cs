@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+using GymEnCasa.App.Persistencia;
+
 namespace GymEnCasa.App.Presentacion
 {
     public class Startup
@@ -24,6 +26,7 @@ namespace GymEnCasa.App.Presentacion
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddSingleton<IRepositorioUsuario,RepositorioUsuario>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

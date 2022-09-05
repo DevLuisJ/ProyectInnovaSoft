@@ -6,12 +6,20 @@ namespace GymEnCasa.App.Persistencia
 {
     public class RepositorioUsuario:IRepositorioUsuario
     {
+        
+        //Se modifica porque se hace desde la Web
+        private readonly AppContext _appContext = new AppContext();
+        
+        /* Ya no se necesita porque el servicio web se encarga de hacer la conexión a la base de datos
+        
         private readonly AppContext _appContext;
+        
         public  RepositorioUsuario (AppContext appContext)
         {
             this._appContext=appContext;
         }
-        
+        */
+
         //Crea o adiciona Usuario en la base de datos
         public  Usuario CrearUsuario (Usuario usuario)
         {

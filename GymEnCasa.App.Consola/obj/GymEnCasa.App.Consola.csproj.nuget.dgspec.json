@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Consola\\GymEnCasa.App.Consola.csproj": {}
+    "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Consola\\GymEnCasa.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Consola\\GymEnCasa.App.Consola.csproj": {
+    "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Consola\\GymEnCasa.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Consola\\GymEnCasa.App.Consola.csproj",
+        "projectUniqueName": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Consola\\GymEnCasa.App.Consola.csproj",
         "projectName": "GymEnCasa.App.Consola",
-        "projectPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Consola\\GymEnCasa.App.Consola.csproj",
+        "projectPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Consola\\GymEnCasa.App.Consola.csproj",
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Consola\\obj\\",
+        "outputPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj": {
-                "projectPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj"
+              "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj": {
+                "projectPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj": {
+    "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj",
         "projectName": "GymEnCasa.App.Dominio",
-        "projectPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj",
+        "projectPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\obj\\",
+        "outputPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -103,6 +103,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -119,14 +123,14 @@
         }
       }
     },
-    "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj": {
+    "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj",
         "projectName": "GymEnCasa.App.Persistencia",
-        "projectPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj",
+        "projectPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Persistencia\\obj\\",
+        "outputPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -140,8 +144,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj": {
-                "projectPath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj"
+              "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj": {
+                "projectPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj"
               }
             }
           }
