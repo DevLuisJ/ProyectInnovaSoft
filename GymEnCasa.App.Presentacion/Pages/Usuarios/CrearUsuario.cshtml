@@ -1,0 +1,173 @@
+﻿@page
+@model GymEnCasa.App.Presentacion.Pages.CrearUsuarioModel
+@{
+     ViewData["Title"] = "Nuevo Usuario";
+}
+
+<br>
+<h2 Class ="Text-info" style="text-align: center;">Crear Usuario 
+</h2>
+<p>Favor ingrese los siguientes datos:
+</p>
+<div class="border">
+    <form method="post" onsubmit="">
+        <br>
+        <div asp-validation-summary="ModelOnly" class="text-danger">
+        </div>
+        <div class="container" style="padding: 30px;">
+            <div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Persona.Nombre">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Persona.Nombre" class="form-control">
+                        </div>
+                        <span asp-validation-for="Persona.Nombre" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Persona.Apellidos">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Persona.Apellidos" class="form-control">
+                        </div>
+                        <span asp-validation-for="Persona.Apellidos" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Persona.Telefono">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Persona.Telefono" class="form-control">
+                        </div>
+                        <span asp-validation-for="Persona.Telefono" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Persona.Direccion">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Persona.Direccion" class="form-control">
+                        </div>
+                        <span asp-validation-for="Persona.Direccion" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Persona.FechaNacimiento">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Persona.FechaNacimiento" class="form-control">
+                        </div>
+                        <span asp-validation-for="Persona.FechaNacimiento" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Persona.Peso">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Persona.Peso" class="form-control">
+                        </div>
+                        <span asp-validation-for="Persona.Peso" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Persona.Estatura">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Persona.Estatura" class="form-control">
+                        </div>
+                        <span asp-validation-for="Persona.Estatura" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Persona.Genero">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Persona.Genero" class="form-control">
+                        </div>
+                        <span asp-validation-for="Persona.Genero" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Persona.IMC">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Persona.IMC" class="form-control">
+                        </div>
+                        <span asp-validation-for="Persona.IMC" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Persona.ObjetivoPersonal">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Persona.ObjetivoPersonal" class="form-control">
+                        </div>
+                        <span asp-validation-for="Persona.ObjetivoPersonal" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+             </div>
+        </div>
+        <p>En construcción !!!
+        </p>
+    </form>  
+</div>

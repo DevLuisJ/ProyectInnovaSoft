@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "A+KMBTZbYZv6uIoh3Hca1cDgjPaETM9PLsEPl62wCgDrnf/WFNRfBusE1rXtmLO8wKxkN7cly4FPYEaWTGG2pA==",
+  "dgSpecHash": "EeUzgvSvDi+wWRVv/kQIllNegRSIcjsQJelm00EMOy1BboFgRDOG8tQLRDt7fSapEIfY2TgCmqF62ea2P2QY1w==",
   "success": true,
   "projectFilePath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Presentacion\\GymEnCasa.App.Presentacion.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrador\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

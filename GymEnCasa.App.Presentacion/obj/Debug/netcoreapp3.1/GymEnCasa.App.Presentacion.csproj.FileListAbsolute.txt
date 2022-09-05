@@ -73,3 +73,7 @@ C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\obj\Debu
 C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\GymEnCasa.App.Presentacion.genruntimeconfig.cache
 C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\GymEnCasa.App.Presentacion.csproj.CopyComplete
 C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Usuarios\IniciarSesion.cshtml.g.cs
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Usuarios\CrearUsuario.cshtml.g.cs
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\bin\Debug\netcoreapp3.1\GymEnCasa.App.Dominio.dll
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\bin\Debug\netcoreapp3.1\GymEnCasa.App.Dominio.pdb

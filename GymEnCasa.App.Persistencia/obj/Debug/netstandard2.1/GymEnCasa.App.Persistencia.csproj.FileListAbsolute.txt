@@ -22,3 +22,15 @@ D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\obj\Debug\netstandard2.1\G
 D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.csproj.CopyComplete
 D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.dll
 D:\GymEnCasa\GymEnCasa.App\gymencasa.app.persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.pdb
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Persistencia\bin\Debug\netstandard2.1\GymEnCasa.App.Persistencia.deps.json
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Persistencia\bin\Debug\netstandard2.1\GymEnCasa.App.Persistencia.dll
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Persistencia\bin\Debug\netstandard2.1\GymEnCasa.App.Persistencia.pdb
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Persistencia\bin\Debug\netstandard2.1\GymEnCasa.App.Dominio.dll
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Persistencia\bin\Debug\netstandard2.1\GymEnCasa.App.Dominio.pdb
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.csprojAssemblyReference.cache
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.AssemblyInfoInputs.cache
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.AssemblyInfo.cs
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.csproj.CopyComplete
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.dll
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Persistencia\obj\Debug\netstandard2.1\GymEnCasa.App.Persistencia.pdb

@@ -7263,33 +7263,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ljcor\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GymEnCasa\\GymEnCasa.App\\gymencasa.app.persistencia\\GymEnCasa.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj",
       "projectName": "GymEnCasa.App.Persistencia",
-      "projectPath": "D:\\GymEnCasa\\GymEnCasa.App\\gymencasa.app.persistencia\\GymEnCasa.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\ljcor\\.nuget\\packages\\",
-      "outputPath": "D:\\GymEnCasa\\GymEnCasa.App\\gymencasa.app.persistencia\\obj\\",
+      "projectPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+      "outputPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ljcor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "D:\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj": {
-              "projectPath": "D:\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj"
+            "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj": {
+              "projectPath": "C:\\Personal\\MinTic\\HomeFit\\ProyectInnovaSoft\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj"
             }
           }
         }

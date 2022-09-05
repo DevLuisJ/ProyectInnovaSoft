@@ -1,33 +1,49 @@
 ﻿@page
 @model GymEnCasa.App.Presentacion.Pages.IniciarSesionModel
 @{
+    ViewData["Title"] = "Iniciar Sesión";
 }
-
+<div class="border">
     <form class="_9vtf" data-testid="login_form" method="post" onsubmit="" id="">
-    <br>
-    <div>
-        <div class="ingreso">
-            <input type="text" class="inputtext_email" name="email" id="email" data-testid="royal_email" placeholder="Correo electrónico " autofocus="1" aria-label="Correo electrónico ">
-        </div>
         <br>
-        <div class="ingreso">
-            <div class="ingreso_password" id="passContainer">
-                <input type="password" class="inputtext" name="pass" id="pass" data-testid="Idpass" placeholder="Contraseña" aria-label="Contraseña">
+        <div asp-validation-summary="ModelOnly" class="text-danger">
+        </div>
+        <div class="container" style="padding: 10px;" style="border: ;10px">
+        <div>
+            <div class="text-info">
+                <label for="username">Digite su correo electrónico &nbsp;<span class="required">*</span></label>
+                <br>
+                <input type="text" class="inputtext_email" name="email" id="email" data-testid="royal_email" placeholder="Correo electrónico " autofocus="1" aria-label="Correo electrónico ">
+            </div>
+            <br>
+            <div class="ingreso">
+                <div class="ingreso_password" id="passContainer">
+                    <label for="password">Digite su Contraseña &nbsp;<span class="required">*</span></label>
+                    <br>
+                    <input type="password" class="inputtext" name="pass" id="pass" data-testid="Idpass" placeholder="Contraseña" aria-label="Contraseña">
+                </div>
             </div>
         </div>
-    </div>
-    <br>
-    <div class="botonIng">
-        <button value="1" class="botonIngreso" name="login" data-testid="login_button" type="submit" id="botoningreso">Iniciar sesión
-        </button>
-    </div>
-    <div class="_8icz">
+        </div>
         <br>
-    </div>
-    <br>
-    <div class="_6ltg">
-        <a role="button" class="botonIngreso" href="#" ajaxify="/reg/spotlight/" id="idBotonRegistro"  >Registrarse en HomeFit.App
-        </a>
-    </div>
-    <br>
-</form>
+
+        <div class="botonIng">
+            <button value="1" class="btn btn-primary" name="login" data-testid="login_button" type="submit" id="botoningreso">Iniciar sesión
+            </button>
+        </div>
+
+        <div class="_8icz">
+            <br>
+        </div>
+        <br>
+        <div class="_6ltg">
+            <a role="button" class="btn btn-success" href="#" ajaxify="/reg/spotlight/" id="idBotonRegistro"  >Registrarse en HomeFit.App
+            </a>
+        </div>
+        <br>
+    </form>
+    <p>En construcción !!!
+    </p>
+</div>
+
+<img src="img_girl.jpg" alt="prueba" width="500" height="600">
