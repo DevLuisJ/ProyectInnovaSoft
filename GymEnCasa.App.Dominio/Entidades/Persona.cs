@@ -31,8 +31,8 @@ namespace GymEnCasa.App.Dominio
         [Required] // Hace que el campo sea obligatorio/requerido
         public Genero Genero {get;set;}
 
-        [Required] // Hace que el campo sea obligatorio/requerido
-        public float IMC {get;set;}
+         // Por ahora no es obligatorio el IMC
+         public float IMC {get;set;}
         
         [Required] // Hace que el campo sea obligatorio/requerido
         public ObjetivoPersonal ObjetivoPersonal {get;set;}

@@ -14,6 +14,8 @@ namespace GymEnCasa.App.Presentacion.Pages
     {
           private readonly IRepositorioUsuario _repoUsuario; //Para conectarse a la base de datos
 
+          public IEnumerable<Usuario> listaUsuario{get;set;}
+
             public ConsultaUModel(IRepositorioUsuario repoUsuario)
             {
                 _repoUsuario =repoUsuario;

@@ -118,3 +118,4 @@ C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\bin\Debu
 C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\bin\Debug\netcoreapp3.1\GymEnCasa.App.Persistencia.dll
 C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\bin\Debug\netcoreapp3.1\GymEnCasa.App.Persistencia.pdb
+C:\Personal\MinTic\HomeFit\ProyectInnovaSoft\GymEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Usuarios\ConsultaU.cshtml.g.cs

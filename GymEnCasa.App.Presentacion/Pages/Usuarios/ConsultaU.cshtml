@@ -1,6 +1,28 @@
 ﻿@page
 @model GymEnCasa.App.Presentacion.Pages.ConsultaUModel
 @{
-
-
+ ViewData["Title"] = "Nuevo Usuario";
 }
+
+<h2 class="text-info" style="text-align:center;">Lista Usuarios </h2>
+<div class="border">
+    <table class="table">
+        <tr>
+            <td>Correo </td>
+            <td>Nombre</td>
+            <td>Apellidos</td>
+            <td>Teléfono</td>
+            <td>Género</td>
+        </tr>
+        @foreach (var U in Model.listaUsuario)
+        {
+            <tr>
+                <td>@U.Correo </td>
+                <td>@U.Nombre </td>
+                <td>@U.Apellidos </td>
+                <td>@U.Telefono </td>
+                <td>@U.Genero </td>
+            </tr>
+        }
+    </table>
+</div>

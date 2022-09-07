@@ -16,6 +16,36 @@
         </div>
         <div class="container" style="padding: 30px;">
             <div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Usuario.Correo">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Usuario.Correo" placeholder="Correo electrónico" class="form-control">
+                        </div>
+                        <span asp-validation-for="Usuario.Correo" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Usuario.Contrasena">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Usuario.Contrasena" type="password" placeholder="Contraseña" class="form-control">  <!--aria-label="Contraseña" -->
+                        </div>
+                        <span asp-validation-for="Usuario.Contrasena"  class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
                 <div class="form-group">
                     <div class="row">
                         <div class="col-sm-2">
@@ -81,7 +111,8 @@
                             </label>
                         </div>
                         <div class="col-sm-4">
-                            <input asp-for="Usuario.FechaNacimiento" class="form-control">
+                            <!--Type="date" para que aparezca solo la fecha sin la hora -->
+                            <input asp-for="Usuario.FechaNacimiento" Type="date" class="form-control">
                         </div>
                         <span asp-validation-for="Usuario.FechaNacimiento" class="text-danger">
                         </span>
@@ -133,7 +164,7 @@
                     </div>
                 </div>
 
-
+                <!--
                 <div class="form-group">
                     <div class="row">
                         <div class="col-sm-2">
@@ -147,7 +178,7 @@
                         </span>
                     </div>
                 </div>
-
+                -->
 
 
                 <div class="form-group">
