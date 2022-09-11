@@ -8,9 +8,9 @@ namespace GymEnCasa.App.Persistencia
     {
         Usuario CrearUsuario (Usuario usuario);
         Usuario ConsultarUsuario (int  idUsuario);
+        Usuario ConsultarUsuarioCorreo (string  CorreoUsuario);
         IEnumerable <Usuario> ConsultarUsuarios();
         Usuario ActualizarUsuario (Usuario usuario);
         void EliminarUsuario (int  idUsuario);
-        
     }
 }

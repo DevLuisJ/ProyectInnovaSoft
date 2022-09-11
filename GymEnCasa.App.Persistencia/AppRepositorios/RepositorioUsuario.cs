@@ -39,6 +39,17 @@ namespace GymEnCasa.App.Persistencia
             return null; 
         }
         
+        //Consulta Usuario en la base de datos
+        public Usuario ConsultarUsuarioCorreo(string CorreoUsuario)
+        {
+            var usuarioEncontrado = _appContext.Usuarios.FirstOrDefault(u=>u.Correo==CorreoUsuario); // u de usuario
+             if (usuarioEncontrado!=null)
+             {
+                return usuarioEncontrado;
+             }
+            return null; 
+        }
+        
         //Consulta todos los Usuarios en la base de datos
         public IEnumerable <Usuario> ConsultarUsuarios()
         {
@@ -52,6 +63,8 @@ namespace GymEnCasa.App.Persistencia
             var usuarioEncontrado = _appContext.Usuarios.FirstOrDefault(u=>u.Id ==usuario.Id);
              if (usuarioEncontrado!=null)
              {
+                usuarioEncontrado.Correo = usuario.Correo;
+                usuarioEncontrado.Contrasena = usuario.Contrasena;
                 usuarioEncontrado.Nombre = usuario.Nombre;
                 usuarioEncontrado.Apellidos = usuario.Apellidos;
                 usuarioEncontrado.Telefono = usuario.Telefono;

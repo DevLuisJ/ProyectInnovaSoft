@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using GymEnCasa.App.Dominio;
 using GymEnCasa.App.Persistencia;
 
+using System.ComponentModel.DataAnnotations;
+
 
 namespace GymEnCasa.App.Presentacion.Pages
 {
