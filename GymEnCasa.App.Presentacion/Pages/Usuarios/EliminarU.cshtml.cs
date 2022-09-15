@@ -11,9 +11,10 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using GymEnCasa.App.Dominio;
 using GymEnCasa.App.Persistencia;
 
+
 namespace GymEnCasa.App.Presentacion.Pages
 {
-    public class EditarUModel : PageModel
+    public class EliminarUModel : PageModel
     {
         private readonly IRepositorioUsuario _repoUsuario;
 
@@ -23,14 +24,16 @@ namespace GymEnCasa.App.Presentacion.Pages
         public Usuario Usuario{get;set;}
         public bool Respuesta;
 
-        public EditarUModel(IRepositorioUsuario repoUsuario)
+        public EliminarUModel(IRepositorioUsuario repoUsuario)
         {
             _repoUsuario=repoUsuario;
         }
+        
         public void OnGet(int UsuarioId)
         {
         
         }
+        
         public async Task<IActionResult> OnPost()
         {  
             Console.WriteLine(Usuario.Correo);
@@ -41,13 +44,14 @@ namespace GymEnCasa.App.Presentacion.Pages
             
             if(Respuesta==false)
                 {
-                //alert("Correo electrónico invalido");
                 return Page(); 
                 }
             else 
                 {
                     Usuario=_repoUsuario.ConsultarUsuarioCorreo(Usuario.Correo);
-                     Console.WriteLine(Usuario.Id);
+                    Console.WriteLine(Usuario.Id);
+ //                   window.alert("¿Seguro que se quiere dar de baja?");
+
                     if(Usuario==null)
                         {
                         return RedirectToPage("/Error");
@@ -58,24 +62,6 @@ namespace GymEnCasa.App.Presentacion.Pages
             
         }  // Fin de public async Task<IActionResult> OnPost()
 
-        public async Task<IActionResult> OnPostEdit()
-        {
-            Console.WriteLine("Usuario a actualizar: " + Usuario.Id);
-            Usuario=_repoUsuario.ActualizarUsuario(Usuario);
-            Console.WriteLine("Actualizando usuario");
-            
-                     
-            if(Usuario!=null)
-               {
-                Console.WriteLine("Usuario no es null");
-                return RedirectToPage("/Usuarios/ConsultaU");
-               }
-               else
-                {
-                Console.WriteLine("Usuario  es null");
-                return RedirectToPage("/Error");
-                }      
-        } // fin de public async Task<IActionResult> OnPostEdit() 
 
         public static bool IsValidEmail(string email)
         {
