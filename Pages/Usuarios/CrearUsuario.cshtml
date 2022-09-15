@@ -1,0 +1,237 @@
+﻿@page
+@using GymEnCasa.App.Dominio 
+<!-- Para que tenga acceso a los enum y despliegue la lista -->
+@model GymEnCasa.App.Presentacion.Pages.CrearUsuarioModel
+@{
+     ViewData["Title"] = "Nuevo Usuario";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Usuario</title>
+</head>
+   
+  <br>
+  <body>
+    
+
+<h2 Class ="Text-info" style="text-align: center;">Crear Usuario</h2>
+<h5><b>Favor ingrese los siguientes datos:</b></h5>
+<div class="border">
+    <form method="post" onsubmit="">
+        <br>
+        <div asp-validation-summary="ModelOnly" class="text-danger">
+        </div>
+        
+        <div class="container" style="padding: 30px;">
+            <div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label> Correo Electrónico
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Usuario.Correo"  type="email" placeholder="Correo electrónico" pattern="p\." title="Formato sin puntos" class="form-control"> 
+                            <!--pattern="[".""]" title="Formato sin puntos" -->
+                        </div>
+                        <span asp-validation-for="Usuario.Correo" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label>Contraseña 
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Usuario.Contrasena" type="password" placeholder="Contraseña" class="form-control">  <!--aria-label="Contraseña" -->
+                        </div>
+                        <span asp-validation-for="Usuario.Contrasena"  class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label>Nombre
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Usuario.Nombre" class="form-control">
+                        </div>
+                        <span asp-validation-for="Usuario.Nombre" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label>Apellidos
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Usuario.Apellidos" class="form-control">
+                        </div>
+                        <span asp-validation-for="Usuario.Apellidos" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label>Número Telefónico
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Usuario.Telefono" class="form-control">
+                        </div>
+                        <span asp-validation-for="Usuario.Telefono" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label> Dirección
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Usuario.Direccion" class="form-control">
+                        </div>
+                        <span asp-validation-for="Usuario.Direccion" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label>Fecha de nacimiento
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <!--Type="date" para que aparezca solo la fecha sin la hora -->
+                            <input asp-for="Usuario.FechaNacimiento" Type="date" class="form-control">
+                        </div>
+                        <span asp-validation-for="Usuario.FechaNacimiento" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label>Peso
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Usuario.Peso" class="form-control">
+                        </div>
+                        <span asp-validation-for="Usuario.Peso" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label>Estatura
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Usuario.Estatura" class="form-control">
+                        </div>
+                        <span asp-validation-for="Usuario.Estatura" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label>Genero
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <select class="form-select form-control" asp-for="Usuario.Genero" asp-items="@Html.GetEnumSelectList<Genero>()">
+                               <!-- 
+                                -->
+                            </Select>
+                         </div>
+                        <span asp-validation-for="Usuario.Genero" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+                <!--
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label asp-for="Usuario.IMC">
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input asp-for="Usuario.IMC" class="form-control">
+                        </div>
+                        <span asp-validation-for="Usuario.IMC" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+                -->
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label>¿Cuál es su Objetivo Personal?
+                            </label>
+                        </div>
+                        <div class="col-sm-4">
+                              <select class="form-select form-control" asp-for="Usuario.ObjetivoPersonal" asp-items="@Html.GetEnumSelectList<ObjetivoPersonal>()">
+                              </select>
+
+
+
+                        </div>
+                        <span asp-validation-for="Usuario.ObjetivoPersonal" class="text-danger">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2 offset-sm-2">
+                            <input type ="submit" value ="Crear"class="btn btn-primary form-control">
+                        </div>
+                        <div class="col-sm-2">
+                             <a asp-page ="/Index" class="btn btn-success form-control"> Volver
+                             </a>
+                        </div>
+                    </div>
+                </div>
+
+             </div>
+        </div>
+        <p>En construcción !!!
+        </p>
+    </form>  
+</div>  
+</body>
+</html>
