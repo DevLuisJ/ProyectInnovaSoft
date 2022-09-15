@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "o2Ga2KiCeoIP0z7zDa/RKuY3KT4bz7iBThENCsmVpLPl0/qm4t61c++LK6CfDbwFEC9+wZbaLfJyQ0CFGTXKWQ==",
+  "success": true,
+  "projectFilePath": "C:\\Personal\\MinTic\\FP-C3-P1-49\\S3\\GymEnCasa\\GymEnCasa.App\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia\\GymEnCasa.App.Persistencia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
