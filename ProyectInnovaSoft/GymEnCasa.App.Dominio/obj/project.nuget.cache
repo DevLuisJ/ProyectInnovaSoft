@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vgff4fI7duwF2EQvqwX7AB5drZbYepaoURvGaSLdM4HAEol+DJilSz3KzWEz4tzxnjEymVTc2GMah4K63aukpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Stefanny\\Downloads\\ProyectGymApp\\ProyectInnovaSoft\\GymEnCasa.App.Dominio\\GymEnCasa.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stefanny\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Stefanny\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Stefanny\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
