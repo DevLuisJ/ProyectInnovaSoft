@@ -17,7 +17,8 @@ namespace GymEnCasa.App.Persistencia
        {
             if(!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog= DB_GymEnCasa");
+                //optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog= DB_GymEnCasa");
+                optionsBuilder.UseSqlServer("Data Source=SQL8002.site4now.net;Initial Catalog=db_a8d29d_homefitdb;User Id=db_a8d29d_homefitdb_admin;Password=Smar123#");
             }
        }
     }
