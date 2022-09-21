@@ -21,5 +21,6 @@ namespace GymEnCasa.App.Persistencia
                 optionsBuilder.UseSqlServer("Data Source=SQL8002.site4now.net;Initial Catalog=db_a8d29d_homefitdb;User Id=db_a8d29d_homefitdb_admin;Password=Smar123#");
             }
        }
+       
     }
 }
